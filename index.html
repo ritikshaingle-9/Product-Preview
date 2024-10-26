@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>product viewer</title>
+</head>
+<body>
+<div class="header">
+    <input type="text" class="search" placeholder="search your brand">
+    <button type="button" class="login-btn"> Login</button>
+</div>
+
+<div class="container">
+   <div class="phone-container">
+        <div class="small-img">
+             <img src="./images/s-1.jpg" alt="" class="p-image" onclick="changeImg(1)">
+             <img src="./images/s-2.jpg" alt="" class="p-image" onclick="changeImg(2)">
+             <img src="./images/s-3.jpg" alt="" class="p-image" onclick="changeImg(3)">
+             <img src="./images/s-4.jpg" alt="" class="p-image" onclick="changeImg(4)">
+             <img src="./images/s-5.jpg" alt="" class="p-image" onclick="changeImg(5)">
+             <img src="./images/s-6.jpg" alt="" class="p-image" onclick="changeImg(6)">
+        </div>
+        <div>
+            <img src="./images/s-1.jpg" alt="" class="big-img" id="bigimgid">
+            <div class="buy-container">
+            <button type="button" class="buy-btn">Buy Now</button>
+            <button type="button" class="buy-btn">Wishlist</button>
+            </div>
+        </div>
+   </div>
+    
+    <div class="details">
+       <p class="phone-name"><b>SAMSUNG Galaxy S23 FE 5G</b> (Purple 128 GB Storage) (8 GB RAM)</p>
+       <p class="text-1">Visit the Samsung Store</p>
+       <p class="text-2"><b>-59% ₹32,999</b></p>
+       <p class="text-1">MRP:<del>₹79,999</del></p>
+       <button type="button" class="buy-btn detail-btn"> Buy Now</button>
+    </div>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
+    
